@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.backgroundPaper {
+  background-color: aqua;
+}
+
+nav {
+  display: flex;
+  height: 12vh;
+  background-color: black;
+  color: rgb(227, 164, 0);
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Comforter Brush";
+  font-size: 5vh;
+}
+
+footer {
+  display: flex;
+  height: 8vh;
+  background-color: black;
+  color: rgb(227, 164, 0);
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+}
+
+.homeContainer {
+  min-height: calc(100vh - 8vh - 12vh);
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navHeading {
+  margin-left: 3vw;
+}
+
+.navConnectBtn {
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #e3a400 99%,
+    #e3a400 100%
+  );
+  padding-right: 30vw;
+}
+
+.raffleImage {
+  height: 50vh;
+  margin: auto;
+
+  animation-name: spin;
+  animation-duration: 7000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
