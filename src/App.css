@@ -59,7 +59,7 @@ footer {
   animation-timing-function: ease-in-out;
 }
 
-@media screen and (min-height: 400px) {
+@media screen and (max-width: 500px) {
   .homeContainer {
     min-height: calc(100vh - 8vh - 16vh);
     background-color: black;
@@ -82,8 +82,8 @@ footer {
   }
 
   .raffleImage {
-    height: 60vw;
-    margin: auto;
+    height: 70vw;
+    margin: 12vh auto;
 
     animation-name: spin;
     animation-duration: 7000ms;
