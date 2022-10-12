@@ -4,7 +4,6 @@ import * as anchor from "@project-serum/anchor";
 import Home from "./Home";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import QueenDisplay from "./QueenDisplay";
 import Roadmap from "./Roadmap";
 import MerchStore from "./MerchStore";
 
