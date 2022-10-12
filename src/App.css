@@ -59,9 +59,9 @@ footer {
   animation-timing-function: ease-in-out;
 }
 
-@media screen and (min-height: 800px) {
+@media screen and (min-height: 400px) {
   .homeContainer {
-    min-height: calc(100vh - 8vh - 12vh);
+    min-height: calc(100vh - 8vh - 16vh);
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@ footer {
   nav {
     display: flex;
     flex-direction: column;
-    height: 12vh;
+    height: 16vh;
     background-color: black;
     color: rgb(227, 164, 0);
     justify-content: space-between;
@@ -82,7 +82,7 @@ footer {
   }
 
   .raffleImage {
-    height: 70vw;
+    height: 60vw;
     margin: auto;
 
     animation-name: spin;
